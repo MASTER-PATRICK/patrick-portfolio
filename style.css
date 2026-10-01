@@ -1,0 +1,58 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: white;
+}
+
+header{
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: rgba(24, 0, 59, 0.474);
+}
+
+.links{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+.link{
+   text-decoration: none;
+   color: white;
+}
+
+#section1{
+   margin-top: 50px;
+}
+
+.intro{
+   display: flex;
+   padding: 10px;
+   width: 100%;
+}
+
+.picture{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.text{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.text p{
+   font-size: 20px;
+}
+
+.picture img{
+   width: 250px;
+   border-radius: 300px;
+}
